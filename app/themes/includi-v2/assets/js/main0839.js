@@ -9057,7 +9057,7 @@
         t.classList.remove("-open"),
         o.classList.remove("-menuOpen"),
         r.a.to("body", {
-          background: "#fdce00",
+          background: "#00A3D9",
           ease: "power4.inOut",
           duration: 0.2,
           overwrite: !0,
@@ -9068,7 +9068,7 @@
       Object(n.a)(),
         document.body.classList.contains("-menuOpen")
           ? r.a.to("body", {
-              background: "#fdce00",
+              background: "#00A3D9",
               ease: "power4.inOut",
               duration: 0.2,
               overwrite: !0,
@@ -13309,7 +13309,7 @@
           onLeave: (t) => {
             let { progress: e, direction: i, isActive: n } = t;
             r.a.to("body", {
-              background: "#fdce00",
+              background: "#00A3D9",
               ease: "power4.inOut",
               duration: 0.2,
               overwrite: !0,
@@ -13327,7 +13327,7 @@
           onLeaveBack: (t) => {
             let { progress: e, direction: i, isActive: n } = t;
             r.a.to("body", {
-              background: "#fdce00",
+              background: "#00A3D9",
               ease: "power4.inOut",
               duration: 0.2,
               overwrite: !0,
@@ -13453,7 +13453,7 @@
             onLeave: (t) => {
               let { progress: e, direction: i, isActive: n } = t;
               r.a.to("body", {
-                background: "#fdce00",
+                background: "#00A3D9",
                 ease: "power4.inOut",
                 duration: 0.2,
                 overwrite: !0,
@@ -13471,7 +13471,7 @@
             onLeaveBack: (t) => {
               let { progress: e, direction: i, isActive: n } = t;
               r.a.to("body", {
-                background: "#fdce00",
+                background: "#00A3D9",
                 ease: "power4.inOut",
                 duration: 0.2,
                 overwrite: !0,
@@ -15028,7 +15028,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 styles: [
                   {
                     url: "/app/themes/includi-v2/assets/img/m-4.png",
-                    textColor: "#fdce00",
+                    textColor: "#00A3D9",
                     textSize: 16,
                     fontFamily: "'Open Sans', Arial",
                     fontWeight: "bold",
@@ -18035,7 +18035,7 @@ PERFORMANCE OF THIS SOFTWARE.
           });
       r.a.matchMedia();
       let a = "#000000",
-        l = "#fdce00",
+        l = "#00A3D9",
         u = "#fefbeb",
         c = jQuery(t.next.container).find(".js-quote");
       r.a.utils.toArray(c).forEach((t) => {
@@ -22564,11 +22564,11 @@ PERFORMANCE OF THIS SOFTWARE.
       let t = document.querySelector("#smooth-content nav.m-navigation"),
         e = document.querySelector("header"),
         n = e.querySelector("nav"),
-        r = document.querySelector(".o-header__switchHolder"),
-        o = r.querySelector(".language-switch"),
-        s = document.querySelector("#smooth-content .language-switch");
-      if ((t && n ? e.replaceChild(t, n) : e.appendChild(t), s && o)) {
-        r.replaceChild(s, o);
+        r = document.querySelector(".o-header__switchHolder");
+        // o = r.querySelector(".language-switch"),
+        // s = document.querySelector("#smooth-content .language-switch");
+      if ((t && n ? e.replaceChild(t, n) : e.appendChild(t), s )) {
+        // r.replaceChild(s, o);
         let t = s.querySelector(".js-selectAlways");
         (0, i(3).default)(t);
         jQuery(t).on("change", function (t) {
@@ -22668,7 +22668,7 @@ PERFORMANCE OF THIS SOFTWARE.
             async leave(t) {
               var e;
               r.a.set(".o-wiper", { zIndex: 30 }),
-                r.a.set("body", { background: "#fdce00", overwrite: !0 }),
+                r.a.set("body", { background: "#00A3D9", overwrite: !0 }),
                 await ((e = r.a.timeline({
                   defaults: { ease: "power3.inOut" },
                 })),
@@ -22947,7 +22947,7 @@ PERFORMANCE OF THIS SOFTWARE.
                             }
                           ),
                           n.to("body", {
-                            backgroundColor: "#fdce00",
+                            backgroundColor: "#00A3D9",
                             ease: "power4.inOut",
                             duration: 0.6,
                             delay: "-0.6",
@@ -22955,7 +22955,7 @@ PERFORMANCE OF THIS SOFTWARE.
                           n.to(
                             "body",
                             {
-                              background: "#fdce00",
+                              background: "#00A3D9",
                               ease: "power4.inOut",
                               duration: 0.6,
                               overwrite: !0,
