@@ -22552,13 +22552,13 @@ PERFORMANCE OF THIS SOFTWARE.
     document.querySelector(".js-navigation"),
       document.querySelector(".js-toggleNavigation");
     function zo() {
-      jQuery.post(
-        woocommerce_params.ajax_url,
-        { action: "mode_theme_update_mini_cart" },
-        function (t) {
-          jQuery("#mode-mini-cart").html(t);
-        }
-      );
+      // jQuery.post(
+      //   woocommerce_params.ajax_url,
+      //   { action: "mode_theme_update_mini_cart" },
+      //   function (t) {
+      //     jQuery("#mode-mini-cart").html(t);
+      //   }
+      // );
     }
     function Bo() {
       let t = document.querySelector("#smooth-content nav.m-navigation"),
@@ -22569,11 +22569,11 @@ PERFORMANCE OF THIS SOFTWARE.
         // s = document.querySelector("#smooth-content .language-switch");
       if ((t && n ? e.replaceChild(t, n) : e.appendChild(t), s )) {
         // r.replaceChild(s, o);
-        let t = s.querySelector(".js-selectAlways");
-        (0, i(3).default)(t);
-        jQuery(t).on("change", function (t) {
-          window.location.href = jQuery(".js-selectAlways").val();
-        });
+        // let t = s.querySelector(".js-selectAlways");
+        // (0, i(3).default)(t);
+        // jQuery(t).on("change", function (t) {
+        //   window.location.href = jQuery(".js-selectAlways").val();
+        // });
       } else r.appendChild(s);
       for (
         var a = document.querySelectorAll("a[href]"),
