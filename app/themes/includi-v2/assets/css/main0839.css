@@ -2303,6 +2303,7 @@ template {
 .a-logo {
   width: 24.871vw;
   display: flex;
+  white-space: nowrap;
 }
 @media (min-width: 41.6875em) {
   .a-logo {
@@ -4905,7 +4906,7 @@ body.-team .m-tool__contentInner.-team {
 }
 @media (min-width: 62em) {
   .o-intro__inner {
-    font-size: 4.1vw;
+    font-size: 3.5vw;
   }
   .o-intro__inner.-desktop {
     display: block;

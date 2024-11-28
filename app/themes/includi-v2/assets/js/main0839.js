@@ -13276,7 +13276,8 @@
                 delay: "-1.6",
                 ease: "none",
               })),
-          0 == e)
+          0 == e),
+          document.getElementById("starting-hexa-text").setAttribute("y", "162")
         )
           var v = "bottom bottom",
             y = l,
