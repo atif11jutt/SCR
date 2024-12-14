@@ -3343,7 +3343,7 @@ template {
 }
 @media (min-width: 62em) {
   .m-cta {
-    width: 50%;
+    width: 33.33%;
   }
   .m-cta.-m2,
   .m-cta.-m3 {

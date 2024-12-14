@@ -18481,7 +18481,7 @@ PERFORMANCE OF THIS SOFTWARE.
       r.a.utils.toArray(w).forEach((t) => {
         t.classList.contains("js-ctaShowImageFirst")
           ? (function (t) {
-              let e = t.querySelectorAll("h3"),
+              let e = t.querySelectorAll("h4"),
                 i = t.querySelectorAll(".a-btn"),
                 n = (t.querySelectorAll("svg"), t.querySelectorAll("path")),
                 o = t.querySelectorAll(".js-cta__img");
@@ -18630,7 +18630,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 });
             })(t)
           : (function (t) {
-              let e = t.querySelectorAll("h3"),
+              let e = t.querySelectorAll("h4"),
                 i = t.querySelectorAll(".a-btn"),
                 n = (t.querySelectorAll("svg"), t.querySelectorAll("path")),
                 o = t.querySelectorAll(".js-cta__img");
