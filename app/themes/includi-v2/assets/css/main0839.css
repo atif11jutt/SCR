@@ -7083,13 +7083,21 @@ div.pswp__img--placeholder,
 .o-banner__text {
   top: 15%;
 }
-.site-content .pin-spacer{
-  height: auto !important;
+.auto-height-sapcer .pin-spacer{
+  /* height: auto !important; */
+  /* padding: 0 !important; */
 }
 .o-approach {
-  height: 190vh !important;
+  /* height: auto !important; */
 }
 .js-ctaHoverImage img{
   opacity: 1 !important;
+}
+.text-mobile-right .m-cta, .text-mobile-right .js-line__inner{
+text-align: right !important;
+}
+.text-mobile-right .js-cta__button{
+  background: #ffffff !important;
+  color: #000000 !important;
 }
 }
