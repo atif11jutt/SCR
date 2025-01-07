@@ -3342,6 +3342,10 @@ template {
     height: 100vh;
     height: 100lvh;
   }
+
+  .services-5 .m-cta{
+    height: 30vw;
+  }
 }
 @media (min-width: 62em) {
   .services-5 .m-cta {
@@ -5276,6 +5280,10 @@ body.-team .m-tool__contentInner.-team {
 @media (min-width: 62em) {
   .o-approach__textInner {
     padding: 0 10.2916666667vw 0 7.2916666667vw;
+  }
+
+  .o-approach__textInner.wide-area {
+    padding: 0 3vw 0 3vw;
   }
 }
 .js-approach__sticky {
