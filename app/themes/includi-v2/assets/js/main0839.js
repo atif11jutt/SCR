@@ -13205,7 +13205,7 @@
           },
           onLeave: (t) => {
             let { progress: e, direction: i, isActive: n } = t;
-            r.a.to("body", { background: "#fdce00", ease: "power4.inOut", duration: 0.2, overwrite: !0 });
+            r.a.to("body", { background: "#000", ease: "power4.inOut", duration: 0.2, overwrite: !0 });
           },
           onEnterBack: (t) => {
             let { progress: e, direction: i, isActive: n } = t;
@@ -13213,7 +13213,7 @@
           },
           onLeaveBack: (t) => {
             let { progress: e, direction: i, isActive: n } = t;
-            r.a.to("body", { background: "#fdce00", ease: "power4.inOut", duration: 0.2, overwrite: !0 });
+            r.a.to("body", { background: "#000", ease: "power4.inOut", duration: 0.2, overwrite: !0 });
           },
           onUpdate: (t) => {
             e && h.progress(t.progress.toFixed(8));

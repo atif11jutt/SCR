@@ -504,7 +504,7 @@ h1,
 h2,
 .-h1,
 .-h2 {
-  font-size: 12.82vw;
+  font-size: 9.82vw;
 }
 .u-fs40,
 h3 {
@@ -586,7 +586,7 @@ input[type="submit"] {
   h2,
   .-h1,
   .-h2 {
-    font-size: 6.51vw;
+    font-size: 4.51vw;
   }
   .u-fs40,
   h3,
@@ -685,7 +685,7 @@ input[type="submit"] {
   h2,
   .-h1,
   .-h2 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .u-fs40,
   h3,
@@ -729,7 +729,7 @@ input[type="submit"] {
   h2,
   .-h1,
   .-h2 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .u-fs40,
   h3,
@@ -832,7 +832,7 @@ input[type="submit"] {
   .u-fs55,
   h1,
   .-h1 {
-    font-size: 6.25vw;
+    font-size: 4.25vw;
   }
   .u-fs50,
   h2,
@@ -947,7 +947,7 @@ input[type="submit"] {
   .u-fs55,
   h1,
   .-h1 {
-    font-size: 5.25vw;
+    font-size: 4.25vw;
   }
   .u-fs50,
   h2,
